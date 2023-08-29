@@ -1,0 +1,317 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   scroll-behavior: smooth;
+}
+
+body {
+    background: #000000;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1350px) {
+    body{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Styling the navbar section  */
+
+.container {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(assets/Netflix_background.jpg);
+    background-size: cover;
+}
+
+
+
+.navbar {
+    width: 100%;
+    height: 80px;
+   display: flex;
+   align-items: center;
+   margin: 0 10.93rem;
+   padding: 0.625rem 0;
+   /* background-color: pink; */
+
+}
+
+
+
+.nav-logo {
+    width: 70%;
+}
+
+
+.logo {
+    background: url(assets/Netflix-Logo.png);
+    background-size: cover;
+    height: 43px;
+    width: 9.25rem;
+ 
+}
+
+.right {
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.globe {
+    width: 7.625rem;
+    height: 2rem;
+    margin-right: .625rem ;
+    padding-right: 0.75rem;
+    border: 1px solid #cac8c86d;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #161616b3;
+}
+
+
+
+.lang {
+    color: #ffffff;
+    border: none;
+    background: none;
+    font-size: 0.93rem;
+    font-weight: 400;
+}
+
+
+.btn {
+    font-size: 0.8rem;
+    padding: 4px 16px;
+    width: 4.75rem;
+    height: 32px;
+    color: #ffffff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+/* Styling for the Call to Action Section  */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8.5rem ;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 2rem 0 0;
+
+}
+
+ .first {
+    font-size: 1.5rem;
+    margin: 1rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+ .second {
+    font-size: 1.1rem;
+    margin: 1.2rem;
+    font-weight: 500;
+}
+
+input {
+    width: 376px;
+    height: 56px;
+    padding: 1rem 1.725rem 0.625rem;
+    border: 1px solid #cac8c86d;
+    border-radius: 5px;
+    background: #161616b3;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+::placeholder {
+    font-size: 1rem;
+    color: #c1bfbf;
+}
+
+.btn2 {
+    font-size: 1.5rem;
+    padding: 0.725rem 1.5rem;
+    margin: 0 0 0 .5rem;
+    width: 200px;
+    height: 56px;
+    color: #ffffff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+
+.hover:hover {
+    background-color: #c11119;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* Styling for Content Section of the page  */
+
+hr {
+    background-color: #232323;
+    height: 8px;
+    border: none
+}
+
+.image {
+    height: 434px;
+    width: 580px;
+    padding-right: 6px;
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin: 0 175px;
+    padding: 72px 0;
+}
+
+.para {
+    width: 580px;
+    height: 224px;
+   padding-left: 6px;
+}
+.para h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.para p {
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.row-rev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.foot {
+    display: flex ;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center ;
+    padding: 72px 0;
+}
+.faq {
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+.faq h2{
+    font-size: 48px;
+}
+
+.faq-btn {
+    color: #ffffff;
+    background-color: #2d2d2d;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    margin: 5px;
+    font-size: 24px;
+    width: 1170px;
+    cursor: pointer;
+}
+
+.faq-btn:hover {
+    background-color: #444343;
+}
+
+.faq-btn i {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.final {
+    margin-top: 46px;
+}
+
+.final  .second {
+    text-align: center;
+}
+.action {
+    margin: 16px 167px 0;
+}
+
+/* Styling the Footer Elements */
+
+footer {
+    width: 1170px;
+    height: 465px;
+    margin: 0 175px;
+    padding: 60px 0;
+}
+
+.foot-ques {
+    padding: 12px 0;
+    font-size: 16px;
+    height: 45px;
+    color: #ffffffb3;
+}
+
+.foot-main li {
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: 14px;
+   width: 380px;
+   height: 22px;
+   color: #ffffffb3;
+}
+
+.foot-main ul {
+  display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 15px;
+   padding: 12px 0;
+}
+
+.foot-lang {
+    padding: 12px 0;
+}
+
+footer p {
+    font-size: 14px;
+    height: 42px;
+    color: #ffffffb3;
+    padding: 12px 0;
+}
+
+
+
+
+

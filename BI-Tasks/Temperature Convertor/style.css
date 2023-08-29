@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(160deg, #ffa60087, #1f4e9991);
+}
+
+.temperature-card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 25px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  width: 500px;
+  text-align: center;
+}
+
+.changed-temperature {
+  background: linear-gradient(115deg, #573d39, #5690ee);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 5px;
+  color: #fff;
+}
+
+.changed-temperature p {
+  font-weight: 700;
+  font-size: 23px;
+  color: #ffa600;
+}
+
+fieldset {
+  border-radius: 5px;
+}
+
+.input-section fieldset {
+  border-bottom: none;
+}
+.convert-button fieldset {
+  border-top: none;
+}
+
+input {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+input,
+select {
+  text-align: center;
+  font-size: 18px;
+}
+
+button {
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #1f4e9a;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #15376a;
+}
+
+@media only screen and (max-width: 400px) {
+    .temperature-card {
+      padding: 20px;
+      width: 300px;
+      font-size: 10px;
+    }
+  
+    .changed-temperature {
+      padding: 5px;
+      margin: 5px;
+      font-size: 12px;
+    }
+    input,
+    select {
+      font-size: 12px !important;
+    }
+  }

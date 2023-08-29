@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+
+<body>
+    <div class="temperature-card">
+        <div class="changed-temperature">
+            <h1><i class="fa-solid fa-temperature-low" style="padding: 0 4px; color: #ffa600;"></i>TempConvertor</h1>
+            <p id="convertedTemp" >0 °C</p>
+        </div>
+        <div class="input-section">
+            <h2>Enter Temperature</h2>
+            <fieldset>
+                <legend>Degree</legend>
+                <input type="number" id="inputTemp" placeholder="0">
+                <select id="inputUnit">
+                    <option value="°C">Celsius (°C) </option>
+                    <option value="°F">Farenheit (°F) </option>
+                    <option value="K">Kelvin (K)</option>
+                </select>
+            </fieldset>
+        </div>
+
+        <div class="convert-button">
+            <fieldset>
+                <h3>Convert In</h3>
+                <select id="convertUnit">
+                    <option value="°C">Celsius (°C) </option>
+                    <option value="°F">Farenheit (°F) </option>
+                    <option value="K">Kelvin (K)</option>
+                </select>
+            </fieldset>
+            <button id="convertBtn">Convert <i class="fa-solid fa-arrow-right" style="padding: 0 4px; color: #ffa600; font-size: 18px;"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
